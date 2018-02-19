@@ -1,0 +1,40 @@
+* {
+  font-family: Arial;
+  box-sizing: border-box;
+}
+.container{
+  width:1020px;
+  margin: 0 auto;
+}
+.tries-wrapper{
+  text-align: center;
+}
+.tries{
+  font-weight: bold;
+}
+button{
+  float: left;
+}
+.card{
+  height: 200px;
+  width: 150px;
+  text-align: center;
+  float: left;
+  margin: 10px;
+  border: solid 1px #000;
+  border-radius: 10px;
+  background: #b1dae7;
+  box-shadow: 5px 5px 5px #ccc;
+}
+.card:hover{
+  cursor: pointer;
+  background: #3ca1c3;
+}
+.card.matched{
+  pointer-events: none;
+  color: #fff;
+  background: #18414e;
+}
+.card p{
+  font-size: 54px;
+}
